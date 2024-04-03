@@ -1,4 +1,3 @@
-# oi
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -27,3 +26,9 @@
     </bean>
 
 </beans>
+
+Description	Resource	Path	Location	Type
+cvc-elt.1.a: Cannot find the declaration of element 'beans'.	contextFront.xml	/crud-demo/src/main/resources	line 2	Language Servers
+Description	Resource	Path	Location	Type
+Downloading external resources is disabled.	contextFront.xml	/crud-demo/src/main/resources	line 8	Language Servers
+
