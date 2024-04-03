@@ -74,4 +74,12 @@ corrected:
     <!-- Your bean definitions here -->
 
 </beans>
-
+<properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/springjpa?serverTimezone=UTC" />
+            <property name="javax.persistence.jdbc.user" value="root" />
+            <property name="javax.persistence.jdbc.password" value="root" />
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.format_sql" value="true" />
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+        </properties>
