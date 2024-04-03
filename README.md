@@ -31,6 +31,9 @@ Description	Resource	Path	Location	Type
 cvc-elt.1.a: Cannot find the declaration of element 'beans'.	contextFront.xml	/crud-demo/src/main/resources	line 2	Language Servers
 Description	Resource	Path	Location	Type
 Downloading external resources is disabled.	contextFront.xml	/crud-demo/src/main/resources	line 8	Language Servers
+Description	Resource	Path	Location	Type
+Referenced file contains errors (http://www.springframework.org/schema/context/spring-context.xsd).  For more information, right click on the message in the Problems View and select "Show Details..."	contextFront.xml	/crud-demo/src/main/resources	line 1	XML Problem
+
 
 corrected:
 <?xml version="1.0" encoding="UTF-8"?>
